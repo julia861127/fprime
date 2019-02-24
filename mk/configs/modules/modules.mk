@@ -89,10 +89,10 @@ REF_MODULES := \
 	Ref/SignalGen \
 	Ref/PingReceiver \
 	Ref/Example/ports \
-	Ref/EPSPowerPort \
-	Ref/EPSPowerTypes \
-	Ref/EPSPowerSender \
-	Ref/EPSPowerReceiver
+	Ref/EPSPower/EPSPowerPort \
+	Ref/EPSPower/EPSPowerReceiver \
+	Ref/EPSPower/EPSPowerSender \
+	Ref/EPSPower/EPSPowerTypes
 Ref_MODULES := \
 	\
 	$(REF_MODULES) \

@@ -1,8 +1,8 @@
 <component name="EPSReceiver" kind="queued" namespace="Ref">
-	<import_port_type>Ref/EPSPowerPort/EPSOpPortAi.xml</import_port_type>
-	<import_port_type>Ref/EPSPowerPort/EPSResultPortAi.xml</import_port_type>
+	<import_port_type>Ref/EPSPower/EPSPowerPort/EPSOpPortAi.xml</import_port_type>
+	<import_port_type>Ref/EPSPower/EPSPowerPort/EPSResultPortAi.xml</import_port_type>
 	<import_port_type>Svc/Sched/SchedPortAi.xml</import_port_type>
-	<import_serializable_type>Ref/EPSPowerTypes/EPSOpSerializableAi.xml</import_serializable_type>
+	<import_serializable_type>Ref/EPSPower/EPSPowerTypes/EPSOpSerializableAi.xml</import_serializable_type>
 	<comment>Component sending a math operation</comment>
 	<ports>
 	   <port name="EPSIn" data_type="Ref::EPSPowerOp" kind="async_input">
